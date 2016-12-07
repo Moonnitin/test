@@ -13,7 +13,7 @@ public class Demo {
 		driver=new FirefoxDriver();
 		driver.get("https://www.google.co.in");	
 		
-		
+		driver.close();
 	}
 
 }
